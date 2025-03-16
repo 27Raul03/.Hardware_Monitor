@@ -30,7 +30,7 @@ class HardwareMonitor(QWidget):
         self.setWindowIcon(QIcon("tray_icon.png"))
 
         self.setWindowTitle("Hardware Monitor")
-        self.resize(600, 500)
+        self.resize(800, 600)
 
         self.timer = QTimer()
         self.timer.timeout.connect(self.hardware_widget.update_data)

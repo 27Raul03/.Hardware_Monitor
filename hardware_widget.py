@@ -35,7 +35,7 @@ class HardwareWidget(QWidget):
         self.gpu_label_value = QLabel()
 
         # Matplotlib Graphs
-        self.figure, self.ax = plt.subplots()
+        self.figure, self.ax = plt.subplots(figsize=(8, 4))
         self.canvas = FigureCanvas(self.figure)
         self.cpu_usage_history = []
         self.ram_usage_history = []

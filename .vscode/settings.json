@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["pyopencl", "startfile", "xlabel", "ylabel", "ylim"]
+  "cSpell.words": [
+    "figsize",
+    "pyopencl",
+    "startfile",
+    "xlabel",
+    "ylabel",
+    "ylim"
+  ]
 }

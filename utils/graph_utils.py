@@ -20,4 +20,9 @@ def update_graphs(ax, canvas, cpu_usage_history, ram_usage_history):
     ax.set_ylabel("Usage (%)")
     ax.legend()
 
+    ax.set_frame_on(True)
+    ax.grid(True)
+
+    plt.tight_layout()
+
     canvas.draw()

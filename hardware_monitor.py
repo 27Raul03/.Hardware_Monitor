@@ -38,7 +38,7 @@ class HardwareMonitor(QWidget):
 
         self.logging_timer = QTimer()
         self.logging_timer.timeout.connect(self.log_data)
-        self.logging_timer.start(500000)
+        self.logging_timer.start(350000)
 
     def log_data(self):
         """Log the current system data to the log file."""
